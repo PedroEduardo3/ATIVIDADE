@@ -1,0 +1,8 @@
+using static System.Console;
+
+int contador = 0;
+while (contador < 150)
+{
+    contador += 10;
+    WriteLine("O valor do contador é:"+contador.ToString());
+}
